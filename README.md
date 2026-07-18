@@ -24,7 +24,7 @@ Program Flow
  -->if we choose i want specific student details then
     -->ask for name and show details of that particualar student
  -->other wise it will show all the details in table format
-7.Display Results in Table Format
+8.Display Results in Table Format
   Finally, Pandas is used to display all student details neatly in a tabular format, making it easy to read and analyze.
 ->Libraries Used
   NumPy: For numerical operations like average, minimum, and maximum calculations.
