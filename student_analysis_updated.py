@@ -5,8 +5,8 @@ stu_det=[]
 for i in range(n):
     name=input("Name:")
     m_m=int(input("marks(mathematics):"))
-    m_p=int(input("marks(physics:)"))
-    m_c=int(input("marks(chemistry:)"))
+    m_p=int(input("marks(physics):"))
+    m_c=int(input("marks(chemistry):"))
     arr=np.array([m_m,m_p,m_c])
     if (m_c>35 and m_m>35) and m_p>35:
         result="Pass"
@@ -23,9 +23,14 @@ for i in range(n):
     stu_det.append(dict1)
 s=input("if you want each student details press yes otherwise no")
 if s=="yes":
-    print("Average percentage:",dict1["average"])
-    print("Rank:",dict1["Result"])
-    print("Grade:",dict1["Grade"])
+    n=input("Enter name which student details do you want")
+    for student in stu_det:
+        if student["name"]=="n":
+            print("Name:", student["name"])
+            print("Average:", student["average"])
+            print("Result:", student["Result"])
+            print("Grade:", student["Grade"])
+            print("-" * 30)
 else:
     df = pd.DataFrame(stu_det)
     print(df)
