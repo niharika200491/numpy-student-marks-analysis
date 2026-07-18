@@ -20,6 +20,10 @@ Program Flow
   C: Average <= 70
 6.Store Student Information
   The program stores each student's information, including name, marks, average, result, and grade, in a structured format.
+7.Ask what do you want
+ -->if we choose i want specific student details then
+    -->ask for name and show details of that particualar student
+ -->other wise it will show all the details in table format
 7.Display Results in Table Format
   Finally, Pandas is used to display all student details neatly in a tabular format, making it easy to read and analyze.
 ->Libraries Used
