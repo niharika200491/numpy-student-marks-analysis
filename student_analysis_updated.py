@@ -26,6 +26,7 @@ if s=="yes":
     n=input("Enter name which student details do you want")
     for student in stu_det:
         if student["name"]=="n":
+            print("-" * 30)
             print("Name:", student["name"])
             print("Average:", student["average"])
             print("Result:", student["Result"])
